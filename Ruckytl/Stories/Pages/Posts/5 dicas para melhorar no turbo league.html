@@ -167,6 +167,11 @@
     z-index: 9;
     padding: 1rem;
 	}
+	@media (min-aspect-ratio: 31 / 40)
+		:root:not([i-amphtml-story-mobile]) amp-story:not([supports-landscape]) amp-story-page {
+	        height: 100% !important;
+	    }    
+	    
     </style>
     <noscript
       ><style amp-boilerplate>
